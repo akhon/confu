@@ -31,7 +31,7 @@ setuptools.setup(
         'boto >= 2.4.6,<3',
         'troposphere >= 2.6,<2.7',
         'click',
-        'pilo >=0.4,<0.5',
+        'py3-pilo',
         'virtualenv',
         'virtualenv-relocate',
     ],
