@@ -23,7 +23,7 @@ setuptools.setup(
     author='Egon Spengler',
     author_email='egon@gb.com',
     description='Fu for con.',
-    long_description=open('README.rst').read(),
+    long_description='README.rst',
     packages=setuptools.find_packages('.', exclude=('tests', 'tests.*')),
     platforms='any',
     install_requires=[
